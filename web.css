@@ -1,0 +1,89 @@
+html {
+  font-size: 12px;
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #333;
+  background-color:#F5F4EF;
+}
+
+#container{
+  margin: 0 auto;
+  width: 600px;
+}
+
+header{
+  position: relative;
+}
+
+h1 {
+      font-size: 35px;
+      color: #A38E60;
+      font-family: 'Poiret One', cursive;
+      clear: right;
+      position: relative;top:20%;right:0;bottom:0;left:10%;
+  }
+
+h3 {
+      font-size: 16px;
+      text-align: left;
+      font-weight: bold;
+      font-family: 'Quattrocento Sans', sans-serif;
+  }
+
+ ul#education {
+ list-style-type: none;
+ }
+
+p {
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+img{
+  position:absolute; top:40%;right:10%;
+}
+
+address {
+     font-size: 16px;
+     font-family: 'Poiret One', serif;
+     float:left;
+     position: relative;top:20%;right:0;bottom:0%;left:10%;
+ }
+
+
+nav {
+  list-style: none;
+  text-align: center;
+  clear: both;
+  font-size: 12px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style-type:none;
+  display: inline-block;
+  background: #F5F4EF;
+}
+
+nav li > a{
+  display:inline-block;
+  padding:20px;
+  text-decoration: none;
+}
+
+nav li > a:visited {
+  color: #A39060;
+}
+
+nav li > a:hover {
+  background: #CADDFF;
+  color: #A39060;
+}
