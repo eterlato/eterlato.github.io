@@ -6,6 +6,7 @@ body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: #F5F4EF;
   background-image: url(../img/skyscrapers.jpg);
+
 }
 
 #container{
@@ -31,8 +32,8 @@ img {
   width: 80px;
   height: auto;
   position: relative;
-  bottom: 185px;
-  left: 387px;
+  bottom: 40px;
+  left: 135px;
   float: left;
 
 }
@@ -88,13 +89,13 @@ h1 {
 
 h2#ect{
       font-size: 22px;
-      text-align: left;
+      text-align: center;
       font-weight: bold;
       font-family: 'Quattrocento Sans', sans-serif;
       color: #333;
       position: relative;
-      bottom:207px;
-      left:90px;
+      top:20px;
+      right:105px;
       padding:20px;
 }
 
@@ -119,15 +120,9 @@ h2 {
   text-align: right;
 }
 
-address{
-  font-size: 17px;
-  text-align: right;
-  position: fixed;
-  top: 385px;
-  right: 220px;
-}
 
-section{
+
+section {
   text-align: right;
   font-size: 12px;
   position: absolute;
@@ -143,6 +138,15 @@ section p{
   font-size: 14px;
   position: relative;
   top: 35px;
+}
+
+address{
+  font-size: 17px;
+  color: #333;
+  text-align: right;
+  position: fixed;
+  top: 385px;
+  right: 220px;
 }
 
 nav {
@@ -182,7 +186,19 @@ nav li > a:hover {
 }
 
 
-#commercial{
+.design{
+  text-align: right;
+  font-size: 14px;
+  position: relative;
+  bottom: 150px;
+  right: 100px;
+}
+
+#portfolio{
+  position:relative;
+}
+
+#style{
   display: none;
   position: fixed;
   top: 190px;
