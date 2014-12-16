@@ -6,6 +6,10 @@ body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: #F5F4EF;
   background-image: url(../img/skyscrapers.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0 auto;
+
 
 }
 
