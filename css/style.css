@@ -1,0 +1,196 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #F5F4EF;
+  background-image: url(../img/skyscrapers.jpg);
+}
+
+#container{
+  margin: 0 auto;
+  width: 600px;
+}
+
+
+img.wide{
+    width:400px;
+    height:auto;
+    clear:left;
+    position: relative;
+    bottom: 400px;
+    left: 90px;
+    margin:4px;
+    padding:4px;
+
+}
+
+img {
+  align:center;
+  width: 80px;
+  height: auto;
+  position: relative;
+  bottom: 185px;
+  left: 387px;
+  float: left;
+
+}
+
+div.transbox {
+    position:relative;
+    width: 900px;
+    height: 280px;
+    margin: 220px 100px 10px;
+    background-color: #A39060;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    min-height: 260px;
+}
+
+div.transbox p {
+    position:relative;
+    text-align:right;
+    color: #F5F4EF;
+}
+
+
+
+h1#elisabeth{
+  font-size: 80px;
+  text-align: center;
+  position:relative;
+  margin:80px;
+  padding:35px;
+}
+
+header {
+  text-align:right;
+  color: #333;
+  position: fixed;
+  top: 300px;
+  right: 20px;
+}
+
+
+
+h1 {
+      font-size: 80px;
+      text-align:left;
+      color: #F5F4EF;
+      font-family: 'Poiret One', cursive;
+      margin:30px;
+      padding:45px;
+      position: relative;
+      bottom:120px;
+      left:0;
+}
+
+h2#ect{
+      font-size: 22px;
+      text-align: left;
+      font-weight: bold;
+      font-family: 'Quattrocento Sans', sans-serif;
+      color: #333;
+      position: relative;
+      bottom:207px;
+      left:90px;
+      padding:20px;
+}
+
+h3 {
+      font-size: 25px;
+      text-align: right;
+      font-family: 'Quattrocento Sans', sans-serif;
+      color: #333;
+}
+
+
+h3 article{
+  font-size: 30px;
+  text-align: right;
+  position: relative;
+  top:60px;
+  right:15px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: right;
+}
+
+address{
+  font-size: 17px;
+  text-align: right;
+  position: fixed;
+  top: 385px;
+  right: 220px;
+}
+
+section{
+  text-align: right;
+  font-size: 12px;
+  position: absolute;
+  top: 200px;
+  right:0;
+  margin: 100px;
+  padding-left: 80px;
+  color: #F5F4EF;
+}
+
+section p{
+  text-align: right;
+  font-size: 14px;
+  position: relative;
+  top: 35px;
+}
+
+nav {
+  list-style: none;
+  text-align: left;
+  clear: both;
+  font-size: 12px;
+  position: fixed;
+  top: 80px;
+  right: 570px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style-type:none;
+  display: inline-block;
+  background: #F5F4EF;
+}
+
+nav li > a{
+  display:inline-block;
+  padding:20px;
+  text-decoration: none;
+}
+
+nav li > a:visited {
+  color: #A39060;
+}
+
+nav li > a:hover {
+  background: #F1EEF5;
+  color: #A39060;
+}
+
+
+#commercial{
+  display: none;
+  position: fixed;
+  top: 190px;
+  right:200px;
+}
+
+#resume {
+  display: none;
+  position: relative;
+  top: 200px;
+}
